@@ -10,16 +10,10 @@ import Foundation
 import SwiftUI
 
 struct CardView<Content: View>: View {
-    let content: Content
     let headerText: String
+    @State var expanded: Bool = true
     
-    init(
-        headerText: String,
-        @ViewBuilder contentBuilder: () -> Content
-    ) {
-        self.headerText = headerText
-        self.content = contentBuilder()
-    }
+    let content: () -> Content
     
     var body: some View {
         VStack {
@@ -31,20 +25,34 @@ struct CardView<Content: View>: View {
                 
                 Text("5")
                     .font(.cardHeader)
-                Image(systemName: "chevron.down")
+                // TODO: Consider changing this to a button
+                // TODO: Change Chevron orientation depending on state
+                // TODO: Add collapsing animation
+                Image(systemName: "chevron.right")
+                    .onTapGesture {
+                        expanded.toggle()
+                    }
                     .font(.cardHeader)
             }
             
-            content
-                .modifier(WithRoundedRect())
+            if expanded {
+                content()
+                    .modifier(WithRoundedRect())
+            }
         }
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(headerText: "Title") {
-            Text("Hello!")
+        Group {
+            CardView(headerText: "Title") {
+                Text("Hello!")
+            }
+            
+            CardView(headerText: "Title", expanded: false) {
+                Text("Hello!")
+            }
         }
         .padding()
         .background(Color.background)
