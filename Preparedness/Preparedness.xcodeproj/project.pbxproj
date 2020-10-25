@@ -18,7 +18,11 @@
 		9EB347B82443A2B4004A46A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB347B62443A2B4004A46A5 /* LaunchScreen.storyboard */; };
 		9EB347C32443A2B4004A46A5 /* PreparednessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347C22443A2B4004A46A5 /* PreparednessTests.swift */; };
 		9EB347CE2443A2B4004A46A5 /* PreparednessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347CD2443A2B4004A46A5 /* PreparednessUITests.swift */; };
+		9EBECDD42545F31900B896E2 /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBECDD32545F31900B896E2 /* Color+Palette.swift */; };
+		9EBECDDA2545FA9100B896E2 /* Font+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBECDD92545FA9100B896E2 /* Font+Styles.swift */; };
+		9EBECDDF2545FC2E00B896E2 /* WithRoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBECDDE2545FC2E00B896E2 /* WithRoundedRect.swift */; };
 		9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBFCD052443CED800461E48 /* MainTabBarController.swift */; };
+		9ED1FB372545EC1D00B3ECD3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1FB362545EC1D00B3ECD3 /* CardView.swift */; };
 		9EDC04F2244BB8AC00F17598 /* shield.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04ED244BB8AB00F17598 /* shield.svg */; };
 		9EDC04F3244BB8AC00F17598 /* fire.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04EE244BB8AB00F17598 /* fire.svg */; };
 		9EDC04F4244BB8AC00F17598 /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04EF244BB8AB00F17598 /* home.svg */; };
@@ -74,7 +78,11 @@
 		9EB347C92443A2B4004A46A5 /* PreparednessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreparednessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB347CD2443A2B4004A46A5 /* PreparednessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparednessUITests.swift; sourceTree = "<group>"; };
 		9EB347CF2443A2B4004A46A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EBECDD32545F31900B896E2 /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
+		9EBECDD92545FA9100B896E2 /* Font+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Styles.swift"; sourceTree = "<group>"; };
+		9EBECDDE2545FC2E00B896E2 /* WithRoundedRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithRoundedRect.swift; sourceTree = "<group>"; };
 		9EBFCD052443CED800461E48 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9ED1FB362545EC1D00B3ECD3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9EDC04ED244BB8AB00F17598 /* shield.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shield.svg; sourceTree = "<group>"; };
 		9EDC04EE244BB8AB00F17598 /* fire.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fire.svg; sourceTree = "<group>"; };
 		9EDC04EF244BB8AB00F17598 /* home.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = home.svg; sourceTree = "<group>"; };
@@ -142,6 +150,9 @@
 		9EB347A82443A2AE004A46A5 /* Preparedness */ = {
 			isa = PBXGroup;
 			children = (
+				9EBECDDD2545FC1900B896E2 /* ViewModifiers */,
+				9EBECDD22545F2F700B896E2 /* Extensions */,
+				9ED1FB352545EBFB00B3ECD3 /* Views */,
 				9EDC04EB244BB88D00F17598 /* Assets */,
 				9EB347A92443A2AE004A46A5 /* AppDelegate.swift */,
 				9EB347AB2443A2AE004A46A5 /* SceneDelegate.swift */,
@@ -171,6 +182,31 @@
 				9EB347CF2443A2B4004A46A5 /* Info.plist */,
 			);
 			path = PreparednessUITests;
+			sourceTree = "<group>";
+		};
+		9EBECDD22545F2F700B896E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9EBECDD32545F31900B896E2 /* Color+Palette.swift */,
+				9EBECDD92545FA9100B896E2 /* Font+Styles.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9EBECDDD2545FC1900B896E2 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				9EBECDDE2545FC2E00B896E2 /* WithRoundedRect.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		9ED1FB352545EBFB00B3ECD3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9ED1FB362545EC1D00B3ECD3 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		9EDC04EB244BB88D00F17598 /* Assets */ = {
@@ -354,12 +390,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED1FB372545EC1D00B3ECD3 /* CardView.swift in Sources */,
 				9EB347B02443A2AE004A46A5 /* SecondViewController.swift in Sources */,
 				9EB347AE2443A2AE004A46A5 /* FirstViewController.swift in Sources */,
 				9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */,
 				9EB347AA2443A2AE004A46A5 /* AppDelegate.swift in Sources */,
 				9EB347AC2443A2AE004A46A5 /* SceneDelegate.swift in Sources */,
+				9EBECDDA2545FA9100B896E2 /* Font+Styles.swift in Sources */,
 				9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */,
+				9EBECDD42545F31900B896E2 /* Color+Palette.swift in Sources */,
+				9EBECDDF2545FC2E00B896E2 /* WithRoundedRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +571,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Preparedness/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,7 +595,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Preparedness/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
