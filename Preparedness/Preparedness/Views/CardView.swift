@@ -37,7 +37,7 @@ struct CardView<Content: View>: View {
             
             if expanded {
                 content()
-                    .modifier(WithRoundedRect())
+                    .modifier(RoundedRectModifier())
             }
         }
     }

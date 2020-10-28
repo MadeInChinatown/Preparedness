@@ -20,7 +20,7 @@
 		9EB347CE2443A2B4004A46A5 /* PreparednessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB347CD2443A2B4004A46A5 /* PreparednessUITests.swift */; };
 		9EBECDD42545F31900B896E2 /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBECDD32545F31900B896E2 /* Color+Palette.swift */; };
 		9EBECDDA2545FA9100B896E2 /* Font+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBECDD92545FA9100B896E2 /* Font+Styles.swift */; };
-		9EBECDDF2545FC2E00B896E2 /* WithRoundedRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBECDDE2545FC2E00B896E2 /* WithRoundedRect.swift */; };
+		9EBECDDF2545FC2E00B896E2 /* RoundedRectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBECDDE2545FC2E00B896E2 /* RoundedRectModifier.swift */; };
 		9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBFCD052443CED800461E48 /* MainTabBarController.swift */; };
 		9ED1FB372545EC1D00B3ECD3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1FB362545EC1D00B3ECD3 /* CardView.swift */; };
 		9EDC04F2244BB8AC00F17598 /* shield.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04ED244BB8AB00F17598 /* shield.svg */; };
@@ -80,7 +80,7 @@
 		9EB347CF2443A2B4004A46A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EBECDD32545F31900B896E2 /* Color+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
 		9EBECDD92545FA9100B896E2 /* Font+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Styles.swift"; sourceTree = "<group>"; };
-		9EBECDDE2545FC2E00B896E2 /* WithRoundedRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithRoundedRect.swift; sourceTree = "<group>"; };
+		9EBECDDE2545FC2E00B896E2 /* RoundedRectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectModifier.swift; sourceTree = "<group>"; };
 		9EBFCD052443CED800461E48 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		9ED1FB362545EC1D00B3ECD3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		9EDC04ED244BB8AB00F17598 /* shield.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shield.svg; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		9EBECDDD2545FC1900B896E2 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
-				9EBECDDE2545FC2E00B896E2 /* WithRoundedRect.swift */,
+				9EBECDDE2545FC2E00B896E2 /* RoundedRectModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -399,7 +399,7 @@
 				9EBECDDA2545FA9100B896E2 /* Font+Styles.swift in Sources */,
 				9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */,
 				9EBECDD42545F31900B896E2 /* Color+Palette.swift in Sources */,
-				9EBECDDF2545FC2E00B896E2 /* WithRoundedRect.swift in Sources */,
+				9EBECDDF2545FC2E00B896E2 /* RoundedRectModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

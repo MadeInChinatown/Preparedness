@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct WithRoundedRect: ViewModifier {
+struct RoundedRectModifier: ViewModifier {
     func body(content: Content) -> some View {
         ZStack {
             Rectangle()
