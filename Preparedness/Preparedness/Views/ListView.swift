@@ -23,7 +23,9 @@ struct ListView : View {
                         SearchBar(text: $searchText)
                         ForEach(self.cardDatasource, id: \.self) { cardData in
                             //TODO: Add Card Views Instead of Text
-                            Text(cardData)
+                            CardView(headerText: cardData) {
+                                Text(cardData)
+                            }
                         }
                     }
                 }.navigationBarTitle(Text("Preparedness"))
