@@ -23,7 +23,7 @@ struct ListView : View {
                     ForEach(self.cardDatasource, id: \.self) { cardData in
                         //TODO: Add Card Views Instead of Text
                         CardView(headerText: cardData) {
-                            ContentView()
+                            CardContentView()
                         }
                     }
                 }.navigationBarTitle(Text("Preparedness"))
