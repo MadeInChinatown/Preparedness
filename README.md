@@ -41,7 +41,8 @@ Allow a user to specify various things (foodstuffs, equipment, etc.) to prepare 
 
 ---
 
-### Sketches
+### Design + Sketches
 
+* [Figma Prototype](https://www.figma.com/file/05Pv1WjlawsBUcLJCOqOw6/Preparedness?node-id=1%3A15262)
 * ![App Sketch](spec/2020_04_12_PreparednessSketch.jpg)
 * ![Preparedness App Sketch](spec/PreparednessAppSketch.jpg)
