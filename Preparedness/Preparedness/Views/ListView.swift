@@ -21,7 +21,6 @@ struct ListView : View {
                 List {
                     SearchBar(text: $searchText)
                     ForEach(self.cardDatasource, id: \.self) { cardData in
-                        //TODO: Add Card Views Instead of Text
                         CardView(headerText: cardData) {
                             CardContentView()
                         }
