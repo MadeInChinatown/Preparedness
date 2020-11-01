@@ -18,14 +18,12 @@ struct ListView : View {
     
     var body: some View {
             NavigationView {
-                VStack {
-                    List {
-                        SearchBar(text: $searchText)
-                        ForEach(self.cardDatasource, id: \.self) { cardData in
-                            //TODO: Add Card Views Instead of Text
-                            CardView(headerText: cardData) {
-                                Text(cardData)
-                            }
+                List {
+                    SearchBar(text: $searchText)
+                    ForEach(self.cardDatasource, id: \.self) { cardData in
+                        //TODO: Add Card Views Instead of Text
+                        CardView(headerText: cardData) {
+                            ContentView()
                         }
                     }
                 }.navigationBarTitle(Text("Preparedness"))
