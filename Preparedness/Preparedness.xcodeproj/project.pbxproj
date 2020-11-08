@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E389A7725586DA500CF8DD9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7625586DA500CF8DD9 /* ListView.swift */; };
+		9E389A7E25586DBA00CF8DD9 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7C25586DB900CF8DD9 /* CardContentView.swift */; };
+		9E389A7F25586DBA00CF8DD9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7D25586DB900CF8DD9 /* SearchBar.swift */; };
 		9E51B7B62443E27400E6DC32 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E51B7B42443E27400E6DC32 /* IGListKit.framework */; };
 		9E51B7B72443E27400E6DC32 /* IGListDiffKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E51B7B52443E27400E6DC32 /* IGListDiffKit.framework */; };
 		9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51B7B82443E74400E6DC32 /* SettingsViewController.swift */; };
@@ -61,6 +64,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9E389A7625586DA500CF8DD9 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		9E389A7C25586DB900CF8DD9 /* CardContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
+		9E389A7D25586DB900CF8DD9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9E51B7B42443E27400E6DC32 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
 		9E51B7B52443E27400E6DC32 /* IGListDiffKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListDiffKit.framework; path = Carthage/Build/iOS/IGListDiffKit.framework; sourceTree = "<group>"; };
 		9E51B7B82443E74400E6DC32 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +210,9 @@
 		9ED1FB352545EBFB00B3ECD3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9E389A7C25586DB900CF8DD9 /* CardContentView.swift */,
+				9E389A7D25586DB900CF8DD9 /* SearchBar.swift */,
+				9E389A7625586DA500CF8DD9 /* ListView.swift */,
 				9ED1FB362545EC1D00B3ECD3 /* CardView.swift */,
 			);
 			path = Views;
@@ -390,14 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E389A7F25586DBA00CF8DD9 /* SearchBar.swift in Sources */,
 				9ED1FB372545EC1D00B3ECD3 /* CardView.swift in Sources */,
 				9EB347B02443A2AE004A46A5 /* SecondViewController.swift in Sources */,
 				9EB347AE2443A2AE004A46A5 /* FirstViewController.swift in Sources */,
 				9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */,
+				9E389A7E25586DBA00CF8DD9 /* CardContentView.swift in Sources */,
 				9EB347AA2443A2AE004A46A5 /* AppDelegate.swift in Sources */,
 				9EB347AC2443A2AE004A46A5 /* SceneDelegate.swift in Sources */,
 				9EBECDDA2545FA9100B896E2 /* Font+Styles.swift in Sources */,
 				9E51B7B92443E74400E6DC32 /* SettingsViewController.swift in Sources */,
+				9E389A7725586DA500CF8DD9 /* ListView.swift in Sources */,
 				9EBECDD42545F31900B896E2 /* Color+Palette.swift in Sources */,
 				9EBECDDF2545FC2E00B896E2 /* RoundedRectModifier.swift in Sources */,
 			);
