@@ -30,3 +30,9 @@ struct ListView : View {
     }
 }
 
+
+struct ListView_Previews: PreviewProvider {
+    static var previews: some View {
+        ListView()
+    }
+}

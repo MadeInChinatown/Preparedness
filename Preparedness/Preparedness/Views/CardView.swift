@@ -30,7 +30,7 @@ struct CardView<Content: View>: View {
                 // TODO: Add collapsing animation
                 Image(systemName: "chevron.right")
                     .onTapGesture {
-                        expanded.toggle()
+                        self.expanded.toggle()
                     }
                     .font(.cardHeader)
             }
