@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847D6BD4255873EA0053B06B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D6BD3255873EA0053B06B /* Models.swift */; };
 		9E389A7725586DA500CF8DD9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7625586DA500CF8DD9 /* ListView.swift */; };
 		9E389A7E25586DBA00CF8DD9 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7C25586DB900CF8DD9 /* CardContentView.swift */; };
 		9E389A7F25586DBA00CF8DD9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7D25586DB900CF8DD9 /* SearchBar.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		847D6BD3255873EA0053B06B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		9E389A7625586DA500CF8DD9 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		9E389A7C25586DB900CF8DD9 /* CardContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
 		9E389A7D25586DB900CF8DD9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -123,6 +125,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		847D6BD2255873410053B06B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				847D6BD3255873EA0053B06B /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9E51B7AB2443E05400E6DC32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 		9EB347A82443A2AE004A46A5 /* Preparedness */ = {
 			isa = PBXGroup;
 			children = (
+				847D6BD2255873410053B06B /* Models */,
 				9EBECDDD2545FC1900B896E2 /* ViewModifiers */,
 				9EBECDD22545F2F700B896E2 /* Extensions */,
 				9ED1FB352545EBFB00B3ECD3 /* Views */,
@@ -412,6 +423,7 @@
 				9E389A7725586DA500CF8DD9 /* ListView.swift in Sources */,
 				9EBECDD42545F31900B896E2 /* Color+Palette.swift in Sources */,
 				9EBECDDF2545FC2E00B896E2 /* RoundedRectModifier.swift in Sources */,
+				847D6BD4255873EA0053B06B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
