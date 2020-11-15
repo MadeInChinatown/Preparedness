@@ -7,15 +7,18 @@
 //
 
 import Foundation
-struct Item {
+
+public struct Item {
     let title: String
     let done: Bool
 }
-struct Category {
+
+public struct Category {
     let name: String
     let items: [Item]
 }
-struct Plan {
+
+public struct Plan {
     let name: String
     let items: [Item]
     let categories: [Category]

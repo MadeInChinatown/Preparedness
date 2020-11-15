@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		847D6BD4255873EA0053B06B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847D6BD3255873EA0053B06B /* Models.swift */; };
 		9E389A7725586DA500CF8DD9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7625586DA500CF8DD9 /* ListView.swift */; };
-		9E389A7E25586DBA00CF8DD9 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7C25586DB900CF8DD9 /* CardContentView.swift */; };
+		9E389A7E25586DBA00CF8DD9 /* PlanCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7C25586DB900CF8DD9 /* PlanCardView.swift */; };
 		9E389A7F25586DBA00CF8DD9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E389A7D25586DB900CF8DD9 /* SearchBar.swift */; };
 		9E51B7B62443E27400E6DC32 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E51B7B42443E27400E6DC32 /* IGListKit.framework */; };
 		9E51B7B72443E27400E6DC32 /* IGListDiffKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E51B7B52443E27400E6DC32 /* IGListDiffKit.framework */; };
@@ -32,6 +32,10 @@
 		9EDC04F4244BB8AC00F17598 /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04EF244BB8AB00F17598 /* home.svg */; };
 		9EDC04F5244BB8AC00F17598 /* earthquake.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04F0244BB8AC00F17598 /* earthquake.svg */; };
 		9EDC04F6244BB8AC00F17598 /* heat.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9EDC04F1244BB8AC00F17598 /* heat.svg */; };
+		9EFF64CD2561B25C00832728 /* Models+MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF64CC2561B25C00832728 /* Models+MockData.swift */; };
+		9EFF64D12561B36700832728 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF64D02561B36700832728 /* ItemView.swift */; };
+		9EFF64D52561B39000832728 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF64D42561B39000832728 /* Checkbox.swift */; };
+		9EFF64E02561BBB200832728 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFF64DF2561BBB200832728 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +71,7 @@
 /* Begin PBXFileReference section */
 		847D6BD3255873EA0053B06B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		9E389A7625586DA500CF8DD9 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		9E389A7C25586DB900CF8DD9 /* CardContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
+		9E389A7C25586DB900CF8DD9 /* PlanCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanCardView.swift; sourceTree = "<group>"; };
 		9E389A7D25586DB900CF8DD9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9E51B7B42443E27400E6DC32 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
 		9E51B7B52443E27400E6DC32 /* IGListDiffKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListDiffKit.framework; path = Carthage/Build/iOS/IGListDiffKit.framework; sourceTree = "<group>"; };
@@ -96,6 +100,10 @@
 		9EDC04EF244BB8AB00F17598 /* home.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = home.svg; sourceTree = "<group>"; };
 		9EDC04F0244BB8AC00F17598 /* earthquake.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = earthquake.svg; sourceTree = "<group>"; };
 		9EDC04F1244BB8AC00F17598 /* heat.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = heat.svg; sourceTree = "<group>"; };
+		9EFF64CC2561B25C00832728 /* Models+MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+MockData.swift"; sourceTree = "<group>"; };
+		9EFF64D02561B36700832728 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		9EFF64D42561B39000832728 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		9EFF64DF2561BBB200832728 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +214,7 @@
 			children = (
 				9EBECDD32545F31900B896E2 /* Color+Palette.swift */,
 				9EBECDD92545FA9100B896E2 /* Font+Styles.swift */,
+				9EFF64CC2561B25C00832728 /* Models+MockData.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -221,10 +230,12 @@
 		9ED1FB352545EBFB00B3ECD3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9E389A7C25586DB900CF8DD9 /* CardContentView.swift */,
-				9E389A7D25586DB900CF8DD9 /* SearchBar.swift */,
-				9E389A7625586DA500CF8DD9 /* ListView.swift */,
 				9ED1FB362545EC1D00B3ECD3 /* CardView.swift */,
+				9EFF64D02561B36700832728 /* ItemView.swift */,
+				9E389A7625586DA500CF8DD9 /* ListView.swift */,
+				9E389A7C25586DB900CF8DD9 /* PlanCardView.swift */,
+				9EFF64D82561B3BE00832728 /* Supporting */,
+				9EFF64DF2561BBB200832728 /* CategoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,6 +259,15 @@
 				9EDC04ED244BB8AB00F17598 /* shield.svg */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		9EFF64D82561B3BE00832728 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				9EFF64D42561B39000832728 /* Checkbox.swift */,
+				9E389A7D25586DB900CF8DD9 /* SearchBar.swift */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,9 +433,12 @@
 				9E389A7F25586DBA00CF8DD9 /* SearchBar.swift in Sources */,
 				9ED1FB372545EC1D00B3ECD3 /* CardView.swift in Sources */,
 				9EB347B02443A2AE004A46A5 /* SecondViewController.swift in Sources */,
+				9EFF64D12561B36700832728 /* ItemView.swift in Sources */,
 				9EB347AE2443A2AE004A46A5 /* FirstViewController.swift in Sources */,
 				9EBFCD062443CED800461E48 /* MainTabBarController.swift in Sources */,
-				9E389A7E25586DBA00CF8DD9 /* CardContentView.swift in Sources */,
+				9EFF64CD2561B25C00832728 /* Models+MockData.swift in Sources */,
+				9E389A7E25586DBA00CF8DD9 /* PlanCardView.swift in Sources */,
+				9EFF64E02561BBB200832728 /* CategoryView.swift in Sources */,
 				9EB347AA2443A2AE004A46A5 /* AppDelegate.swift in Sources */,
 				9EB347AC2443A2AE004A46A5 /* SceneDelegate.swift in Sources */,
 				9EBECDDA2545FA9100B896E2 /* Font+Styles.swift in Sources */,
@@ -424,6 +447,7 @@
 				9EBECDD42545F31900B896E2 /* Color+Palette.swift in Sources */,
 				9EBECDDF2545FC2E00B896E2 /* RoundedRectModifier.swift in Sources */,
 				847D6BD4255873EA0053B06B /* Models.swift in Sources */,
+				9EFF64D52561B39000832728 /* Checkbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

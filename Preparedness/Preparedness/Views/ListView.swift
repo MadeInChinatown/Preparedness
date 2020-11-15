@@ -21,9 +21,11 @@ struct ListView : View {
                 List {
                     SearchBar(text: $searchText)
                     ForEach(self.cardDatasource, id: \.self) { cardData in
-                        CardView(headerText: cardData) {
-                            CardContentView()
-                        }
+//                        CardView(headerText: cardData) {
+////                            PlanCardView()
+//                            Text("Placeholder")
+//                        }
+                        CardView(.mock)
                     }
                 }.navigationBarTitle(Text("Preparedness"))
             }

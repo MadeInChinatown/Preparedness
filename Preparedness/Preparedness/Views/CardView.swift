@@ -43,6 +43,14 @@ struct CardView<Content: View>: View {
     }
 }
 
+extension CardView where Content == PlanCardView {
+    init(_ plan: Plan) {
+        self.headerText = plan.name
+        self.content = { PlanCardView(plan: plan) }
+        self.expanded = true
+    }
+}
+
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         Group {

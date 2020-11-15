@@ -12,4 +12,8 @@ extension Font {
     static var cardHeader: Font {
         .system(size: 17, weight: .bold, design: .rounded)
     }
+    
+    static var categoryHeader: Font {
+        .system(size: 15, weight: .semibold, design: .rounded)
+    }
 }
